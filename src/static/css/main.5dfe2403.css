@@ -1,0 +1,177 @@
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    margin: 0
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace
+}
+
+.App {
+    text-align: center
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none
+}
+
+@media (prefers-reduced-motion:no-preference) {
+    .App-logo {
+        -webkit-animation: App-logo-spin 20s linear infinite;
+        animation: App-logo-spin 20s linear infinite
+    }
+}
+
+.btn {
+    cursor: pointer
+}
+
+.App-header {
+    align-items: center;
+    background-color: #282c34;
+    color: #f3dbdb;
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    justify-content: center;
+    min-height: 100vh
+}
+
+.t-red {
+    color: red
+}
+
+.App-link {
+    color: #61dafb
+}
+
+@-webkit-keyframes App-logo-spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+    to {
+        -webkit-transform: rotate(1turn);
+        transform: rotate(1turn)
+    }
+}
+
+@keyframes App-logo-spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+    to {
+        -webkit-transform: rotate(1turn);
+        transform: rotate(1turn)
+    }
+}
+
+.t-center {
+    text-align: center !important
+}
+
+.error {
+    color: #f5ab35;
+    font-weight: 700;
+    text-align: center
+}
+
+.pointer {
+    cursor: pointer
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.red {
+    color: red
+}
+
+.t-12 {
+    font-size: 12px
+}
+
+.modal {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .4);
+    display: block;
+    height: 100%;
+    left: 0;
+    overflow: auto;
+    padding-top: 100px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100
+}
+
+.modal-content {
+    background-color: #fefefe;
+    border: 1px solid #888;
+    border-radius: 8px;
+    margin: auto auto 50px;
+    width: 90%
+}
+
+@media screen and (min-width:480px) {
+    .modal-content {
+        width: 30%
+    }
+}
+
+.close {
+    color: #000;
+    cursor: pointer;
+    float: right;
+    font-size: 28px;
+    font-weight: 700;
+    padding: 20px
+}
+
+.close:focus,
+.close:hover {
+    color: #aaa;
+    cursor: pointer;
+    text-decoration: none
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%
+}
+
+td,
+th {
+    padding: 8px;
+    text-align: left
+}
+
+tr:nth-child(2n) {
+    background-color: #f2f2f2;
+    color: #000
+}
+
+.divbtn {
+    background-color: #f5ab35;
+    color: #fff;
+    float: right;
+    margin-top: 20px;
+    padding: 10px
+}
+
+.divbtn:active,
+.divbtn:focus,
+.divbtn:hover {
+    background-color: #fff;
+    border: 1px solid #f5ab35;
+    color: #f5ab35
+}
+
+/*# sourceMappingURL=main.5dfe2403.css.map*/
